@@ -17,7 +17,7 @@ Secondly, we built an **UI on Python** to allow users to select as many organiza
 
 We implemented sophisticated computational tools such as **parallel processing** to generate the aforementioned randomized portfolio combinations. Our algorithm crunched through *a million combinations* to generate the "efficient frontier" based on the user's criterion.
 
-![alt text](/images/stock2.png "Efficient Frontier")
+![alt text](/images/stock3.png "Efficient Frontier")
 
 **Maximum Sharpe Ratio Portfolio Allocation**
 
