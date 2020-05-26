@@ -22,4 +22,4 @@ The neural network was then ensembled with a lightGBM model to obtain balanced r
 
 ### Results
 
-The testing for this project was unique in that live matches were used to test the predictions. My algorithm was run prior to each match from mid-December to the end of the season. My team finished in the top 30% worldwide on the Kaggle leaderboard, and we were one of the few all-University teams.
+The testing for this project was unique in that live matches were used to test the predictions. My algorithm was run prior to each match from mid-December to the end of the season. My team finished in the top 30% worldwide (out of 5000 teams) on the Kaggle leaderboard, and we were one of the few all-University teams.
