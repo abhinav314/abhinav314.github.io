@@ -22,18 +22,24 @@ We implemented sophisticated computational tools such as **parallel processing**
 **Maximum Sharpe Ratio Portfolio Allocation**
 
 Annualised Return: 82.75
+
 Annualised Volatility: 3.46
-             JPM    NKE   NFLX   AMZN  GOOGL
-allocation  0.63  40.23  26.48  29.57   3.09
+
+| JPM | NKE | NFLX | AMZN | GOOGL |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| 0.63 | 40.23 | 26.48 | 29.57 | 3.09 |
 
 --------------------------------------------------------------------------------
 
 **Minimum Volatility Portfolio Allocation**
 
 Annualised Return: 54.48
+
 Annualised Volatility: 3.01
-              JPM    NKE  NFLX  AMZN  GOOGL
-allocation  24.19  38.82  2.88  0.63  33.48
+
+| JPM | NKE | NFLX | AMZN | GOOGL |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| 2419 | 38.82 | 2.88 | 0.63 | 33.48 |
 
 ### Portfolio Return Predictions
 
@@ -45,9 +51,13 @@ Finally, we selected *the top 50 portfolio combinations*, and applied a **Tensor
 **PORTFOLIO FOR MAXIMUM SHARPE RATIO**
 
 List of Stocks:  ['JPM', 'NKE', 'NFLX', 'AMZN', 'GOOGL']
+
 Corresponding % Weight:  [ 0.63 40.23 26.48 29.57  3.09]
+
 ORIGINAL MONEY INVESTED:  100 $
+
 FORECASTED PORTFOLIO VALUE:  82.27 $
+
 GAIN IN VALUE AFTER 3 MONTHS:  -17.73 $
 
 ----------------------------------------------------------------------
@@ -55,7 +65,11 @@ GAIN IN VALUE AFTER 3 MONTHS:  -17.73 $
 **PORTFOLIO FOR MINIMUM VOLATILITY**
 
 List of Stocks:  ['JPM', 'NKE', 'NFLX', 'AMZN', 'GOOGL']
+
 Corresponding % Weight:  [24.19 38.82  2.88  0.63 33.48]
+
 ORIGINAL MONEY INVESTED:  100 $
+
 FORECASTED PORTFOLIO VALUE:  84.47 $
+
 GAIN IN VALUE AFTER 3 MONTHS:  -15.53 $
