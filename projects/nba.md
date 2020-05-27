@@ -1,5 +1,5 @@
 ## Automated Ad Classification
-[GitHub] (https://github.com/abhinav314/nbaPerfPrediction)
+[GitHub](https://github.com/abhinav314/nbaPerfPrediction)
 
 ### Problem Definition
 
