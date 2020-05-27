@@ -7,7 +7,7 @@ Develop a framework to help NBA teams predict player performance for upcoming se
 
 ### Solution Overview
 
-My team started off by identifying the most "efficient" players position-wise. We chose the Player Efficiency Rating (PER - http://insider.espn.com/nba/hollinger/statistics/_/order/false) provided by ESPN as our guiding metric. 
+My team started off by identifying the most "efficient" players position-wise. We chose the Player Efficiency Rating [PER](http://insider.espn.com/nba/hollinger/statistics/_/order/false) provided by ESPN as our guiding metric. 
 
 Our aim was to predict the PER values for players in the upcoming season (2019-20) based on historical data. Relying on the predicted PER values, and a user inputted budget, we recommend player trades and generate a sample roster within the budget for the upcoming season. 
 
