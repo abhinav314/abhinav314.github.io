@@ -1,10 +1,9 @@
 /*!
-    Title: Dev Portfolio Template
-    Version: 1.2.2
-    Last Change: 03/25/2020
-    Author: Ryan Fitzgerald
-    Repo: https://github.com/RyanFitzgerald/devportfolio-template
-    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
+    Title: DS Portfolio Template
+    Version: 1.2.3
+    Last Change: 05/28/2020
+    Author: Abhinav Chanda
+    Repo: https://github.com/abhinav314/abhinav314.github.io
 
     Description: This file contains all the styles associated with the page
     that don't come from third party libraries. This file gets compiled using
@@ -249,7 +248,7 @@ text-align:center;
 margin:0;
 }
 
-#lead-content h1 {
+#lead-content h2 {
 color:#fff;
 font-weight:900;
 font-size:5em;
@@ -258,12 +257,12 @@ letter-spacing:.05em;
 line-height:.9em;
 }
 
-#lead-content h2 {
+/* #lead-content h2 {
 color:#a0cfee;
 font-weight:500;
 font-size:2.25em;
 margin-bottom:15px;
-}
+} */
 
 #lead-overlay {
 position:absolute;
