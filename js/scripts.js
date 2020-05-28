@@ -27,7 +27,8 @@
 
         $('html, body').animate({
             scrollTop: scrollDistance + 'px'
-        }, Math.abs(window.pageYOffset - $(heading).offset().top) / 1);
+        }, 500);
+		//Math.abs(window.pageYOffset - $(heading).offset().top) / 1
 
         // Hide the menu once clicked if mobile
         if ($('header').hasClass('active')) {
