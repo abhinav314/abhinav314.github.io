@@ -728,6 +728,10 @@ footer {
 	padding: 0 0 0 15px
 }
 
+.menu li {
+	display: inline-block;
+}
+
 @media only screen and (max-width: 750px) {
 	#experience-timeline:before,
 	#experience-timeline:after {
