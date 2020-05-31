@@ -6,13 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio</title>
-	<!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
-	<!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -44,37 +39,18 @@
             <li>
                 <a href="#skills">Skills</a>
             </li>
-            <!-- <li>
+            <li>
                 <a href="#contact">Contact</a>
-            </li> -->
+            </li>
         </ul>
     </header>
     <!-- End header -->
 
     <div id="lead">
         <div id="lead-content">
-			<br />
-			<img src="/images/ac_portfolio.png" width="30%" height="30%" />
-			<br />
-			<br />
-            <h2>Abhinav Chanda</h2>
-			<br />
-			<br />
-            <!-- <h3>Data Scientist</h3> -->
-			<!-- <ul class='icon-list'> -->
-				<!-- <li> -->
-					<!-- <a href="/pdf/resume_abhinav_chanda.pdf" target="_blank"><i class="fa fa-file-pdf" aria-hidden="true"></a> -->
-				<!-- </li> -->
-				<!-- <li> -->
-					<!-- <a href="https://github.com/abhinav314" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> -->
-				<!-- </li> -->
-				<!-- <li> -->
-					<!-- <a href="https://www.linkedin.com/in/abhinav468/" target="_blank"><i class="fa fa-linkedin aria-hidden="true"></i></a> -->
-				<!-- </li> -->
-			<!-- </ul> -->
+            <h1>Abhinav Chanda</h1>
+            <h2>Data Scientist</h2>
             <a href="/pdf/resume_abhinav_chanda.pdf" class="btn-rounded-white">Download Resume</a>
-			<br />
-			<br />
         </div>
         <!-- End #lead-content -->
 
@@ -183,10 +159,16 @@
 					Member of the Krannert Dean's list (top 25% students)
 				</li>
 				<li>
-					Awarded a merit-based scholarship from Krannert
+					Built a deep learning model using Keras in Python to predict rushing yards for a play in an NFL game for better judgement of factors - beyond player abilities - crucial to a successful rushing play.
 				</li>
 				<li>
-					Coursework - Advanced Business Analytics, Computing for Analytics, Data Mining, Management of Organizational Data, Predictive Analytics, R Programming, Introduction to Python, Business Analytics, Microeconomics, IT Project Management, Pricing Strategies and Analytics, Spreadsheet Modeling and Optimization
+					Devised a portfolio optimization system using LSTM and parallel computing in Python to calculate quarterly returns that are fed directly into a R Shiny decision support application for portfolio selection and visualization.
+				</li>
+				<li>
+					Created an NLP framework in Python using NLTK that reduced misclassification of product listings by 96%.
+				</li>
+				<li>
+					Developed a Python kernel on NumPy, Pandas and Scikit-learn to predict NBA player performance with 95% accuracy and recommend optimal player trading strategies within user specified budgets.
 				</li>	
             </ul>
         </div>
@@ -295,7 +277,7 @@
 					<div class="project-info">
 						<h3>Bankruptcy Prediction</h3>
 						<p>
-							Predict whether a firm goes bankrupt in the future, based on historical data.
+							Predict player performance for the 2019-20 season, and recommend trades based on player positions, performance and user-entered budget cap.
 						</p>
 						<a href="/projects/dm">View Project</a>
 					</div>
@@ -329,20 +311,18 @@
     </div>
     <!-- End #skills -->
 
-    <!--
-		<div id="contact">
-			<h2>Get in Touch</h2>
-			<div id="contact-form">
-				<form method="POST" action="https://formspree.io/email@email.com">
-					<input type="hidden" name="_subject" value="Contact request from personal website" />
-					<input type="email" name="_replyto" placeholder="Your email" required>
-					<textarea name="message" placeholder="Your message" required></textarea>
-					<button type="submit">Send</button>
-				</form>
-			</div>
-		</div>
-	-->
-	<!-- End #contact-form -->
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/email@email.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
     <!-- End #contact -->
 
     <footer>
@@ -375,7 +355,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
