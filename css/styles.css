@@ -745,7 +745,7 @@ footer {
 	color: white;
 }
 
-.social i:hover {
+.social a:hover {
 	color:darkgrey
 }
 
