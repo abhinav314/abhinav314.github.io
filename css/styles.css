@@ -732,6 +732,11 @@ footer {
 	display: inline-block;
 }
 
+.menu i {
+	color: white;
+	margin: 2%
+}
+
 @media only screen and (max-width: 750px) {
 	#experience-timeline:before,
 	#experience-timeline:after {
