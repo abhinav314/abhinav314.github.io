@@ -728,13 +728,25 @@ footer {
 	padding: 0 0 0 15px
 }
 
+.menu {
+	display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+	width: 100%;
+}
+
 .menu li {
 	display: inline-block;
+	display: block;
+    flex: 0 1 auto; /* Default */
 }
 
 .menu i {
 	color: white;
-	margin: 2%
+}
+
+.social i:hover {
+	color:darkgrey
 }
 
 @media only screen and (max-width: 750px) {
