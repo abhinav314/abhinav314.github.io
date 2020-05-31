@@ -1,10 +1,14 @@
 /*!
-    Title: Dev Portfolio Template
-    Version: 1.2.2
+    Title: DS Portfolio Template
+    Version: 1.0
     Last Change: 03/25/2020
-    Author: Ryan Fitzgerald
-    Repo: https://github.com/RyanFitzgerald/devportfolio-template
-    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
+    Author: Abhinav Chanda
+    Repo: https://github.com/abhinav314/abhinav314.github.io
+
+    Description: This file contains all the styles associated with the page
+    that don't come from third party libraries. This file gets compiled using
+    Gulp and send to the /css folder which is then loaded on the page.
+*/
 
     Description: This file contains all the scripts associated with the single-page
     portfolio website.
