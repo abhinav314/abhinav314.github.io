@@ -177,6 +177,10 @@ padding:10px;
 color:#3498db;
 }
 
+.icon-list li {
+	display:inline;
+}
+
 .btn-rounded-white {
 display:inline-block;
 color:#fff;
