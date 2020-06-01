@@ -617,8 +617,8 @@ footer {
 
 #certificates div {
 	max-width: 700px;
-    margin: 30px auto 30px auto;
-    padding: 15px;
+    /* margin: 30px auto 30px auto; */
+    /* padding: 15px; */
     border: 1px solid #dcd9d9;
     text-align: left;
     font-size: 60%;
